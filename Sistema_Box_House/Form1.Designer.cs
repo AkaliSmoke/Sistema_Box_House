@@ -28,65 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnNovaVenda = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnVendaProdutos = new System.Windows.Forms.Button();
+            this.btnCadastroClientes = new System.Windows.Forms.Button();
+            this.btnCadastroFuncionarios = new System.Windows.Forms.Button();
+            this.btnControleEntregas = new System.Windows.Forms.Button();
+            this.btnFecharSistema = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnNovaVenda
+            // btnVendaProdutos
             // 
-            this.btnNovaVenda.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnNovaVenda.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNovaVenda.Location = new System.Drawing.Point(13, 13);
-            this.btnNovaVenda.Name = "btnNovaVenda";
-            this.btnNovaVenda.Size = new System.Drawing.Size(249, 90);
-            this.btnNovaVenda.TabIndex = 0;
-            this.btnNovaVenda.Text = "Nova Venda";
-            this.btnNovaVenda.UseVisualStyleBackColor = false;
+            this.btnVendaProdutos.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnVendaProdutos.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVendaProdutos.Location = new System.Drawing.Point(13, 13);
+            this.btnVendaProdutos.Name = "btnVendaProdutos";
+            this.btnVendaProdutos.Size = new System.Drawing.Size(249, 90);
+            this.btnVendaProdutos.TabIndex = 0;
+            this.btnVendaProdutos.Text = "Controle de vendas de produtos";
+            this.btnVendaProdutos.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnCadastroClientes
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(268, 13);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(276, 90);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Cadastrar Cliente";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnCadastroClientes.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCadastroClientes.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastroClientes.Location = new System.Drawing.Point(268, 13);
+            this.btnCadastroClientes.Name = "btnCadastroClientes";
+            this.btnCadastroClientes.Size = new System.Drawing.Size(276, 90);
+            this.btnCadastroClientes.TabIndex = 1;
+            this.btnCadastroClientes.Text = "Cadastro de clientes";
+            this.btnCadastroClientes.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnCadastroFuncionarios
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(13, 124);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(249, 84);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Controle de Entregas";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnCadastroFuncionarios.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCadastroFuncionarios.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastroFuncionarios.Location = new System.Drawing.Point(13, 124);
+            this.btnCadastroFuncionarios.Name = "btnCadastroFuncionarios";
+            this.btnCadastroFuncionarios.Size = new System.Drawing.Size(249, 84);
+            this.btnCadastroFuncionarios.TabIndex = 2;
+            this.btnCadastroFuncionarios.Text = "Cadastro de funcionários";
+            this.btnCadastroFuncionarios.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnControleEntregas
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(268, 124);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(276, 84);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Fechar Sistema";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnControleEntregas.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnControleEntregas.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnControleEntregas.Location = new System.Drawing.Point(268, 124);
+            this.btnControleEntregas.Name = "btnControleEntregas";
+            this.btnControleEntregas.Size = new System.Drawing.Size(276, 84);
+            this.btnControleEntregas.TabIndex = 3;
+            this.btnControleEntregas.Text = "Controle de entregas";
+            this.btnControleEntregas.UseVisualStyleBackColor = false;
+            // 
+            // btnFecharSistema
+            // 
+            this.btnFecharSistema.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnFecharSistema.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFecharSistema.Location = new System.Drawing.Point(157, 238);
+            this.btnFecharSistema.Name = "btnFecharSistema";
+            this.btnFecharSistema.Size = new System.Drawing.Size(216, 74);
+            this.btnFecharSistema.TabIndex = 4;
+            this.btnFecharSistema.Text = "Fechar o Sistema";
+            this.btnFecharSistema.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(556, 238);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnNovaVenda);
+            this.ClientSize = new System.Drawing.Size(556, 324);
+            this.Controls.Add(this.btnFecharSistema);
+            this.Controls.Add(this.btnControleEntregas);
+            this.Controls.Add(this.btnCadastroFuncionarios);
+            this.Controls.Add(this.btnCadastroClientes);
+            this.Controls.Add(this.btnVendaProdutos);
             this.Name = "Form1";
             this.Text = "FormPrincipal";
             this.ResumeLayout(false);
@@ -95,10 +108,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnNovaVenda;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnVendaProdutos;
+        private System.Windows.Forms.Button btnCadastroClientes;
+        private System.Windows.Forms.Button btnCadastroFuncionarios;
+        private System.Windows.Forms.Button btnControleEntregas;
+        private System.Windows.Forms.Button btnFecharSistema;
     }
 }
 
