@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|c:\\users\\kaio.mfernandes\\source\\repos\\sistema_box_house\\sistema_box_house\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\sistema_box_house\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\sistema_box_house\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,15 +15,11 @@
       "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\formvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\sistema_box_house\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\sistema_box_house\\formvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\formvendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|c:\\users\\kaio.mfernandes\\source\\repos\\sistema_box_house\\sistema_box_house\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\sistema_box_house\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,15 +31,15 @@
       "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\formfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|c:\\users\\kaio.mfernandes\\source\\repos\\sistema_box_house\\sistema_box_house\\formentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\sistema_box_house\\formentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\formentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|c:\\users\\kaio.mfernandes\\source\\repos\\sistema_box_house\\sistema_box_house\\formfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\sistema_box_house\\formfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\formfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|c:\\users\\kaio.mfernandes\\source\\repos\\sistema_box_house\\sistema_box_house\\formentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\sistema_box_house\\formentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E266FC29-15BC-451F-8D36-47A2C23CDEA5}|Sistema_Box_House\\Sistema_Box_House.csproj|solutionrelative:sistema_box_house\\formentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,8 +70,7 @@
               "RelativeToolTip": "Sistema_Box_House\\FormEntrega.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T23:09:02.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T23:09:02.216Z"
             },
             {
               "$type": "Document",
@@ -83,38 +82,37 @@
               "RelativeToolTip": "Sistema_Box_House\\FormClientes.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T23:08:25.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T23:08:25.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormVendas.cs",
               "DocumentMoniker": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\Sistema_Box_House\\FormVendas.cs",
               "RelativeDocumentMoniker": "Sistema_Box_House\\FormVendas.cs",
               "ToolTip": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\Sistema_Box_House\\FormVendas.cs",
               "RelativeToolTip": "Sistema_Box_House\\FormVendas.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA2wGwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T23:05:05.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\Sistema_Box_House\\Form1.cs",
               "RelativeDocumentMoniker": "Sistema_Box_House\\Form1.cs",
               "ToolTip": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\Sistema_Box_House\\Form1.cs",
               "RelativeToolTip": "Sistema_Box_House\\Form1.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T23:06:18.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\Sistema_Box_House\\Form1.cs",
               "RelativeDocumentMoniker": "Sistema_Box_House\\Form1.cs",
@@ -145,8 +143,7 @@
               "ToolTip": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\Sistema_Box_House\\FormFuncionarios.cs [Design]",
               "RelativeToolTip": "Sistema_Box_House\\FormFuncionarios.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T22:53:29.673Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-10T22:53:29.673Z"
             },
             {
               "$type": "Document",
@@ -157,8 +154,7 @@
               "ToolTip": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\Sistema_Box_House\\FormClientes.cs [Design]",
               "RelativeToolTip": "Sistema_Box_House\\FormClientes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T22:53:03.089Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-10T22:53:03.089Z"
             },
             {
               "$type": "Document",
@@ -170,8 +166,7 @@
               "RelativeToolTip": "Sistema_Box_House\\FormFuncionarios.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAWwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T23:09:56.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T23:09:56.698Z"
             },
             {
               "$type": "Document",
@@ -182,8 +177,7 @@
               "ToolTip": "C:\\Users\\kaio.mfernandes\\source\\repos\\Sistema_Box_House\\Sistema_Box_House\\FormEntrega.cs [Design]",
               "RelativeToolTip": "Sistema_Box_House\\FormEntrega.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T22:53:51.737Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-10T22:53:51.737Z"
             }
           ]
         }
