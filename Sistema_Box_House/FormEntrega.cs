@@ -16,5 +16,40 @@ namespace Sistema_Box_House
         {
             InitializeComponent();
         }
+
+        private void cboClientes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEnderecoEntrega_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboStatus_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdicionarEntrega_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLimparCampos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvEntregasCadastro_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

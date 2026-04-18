@@ -1,0 +1,14 @@
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\bin\Debug\Sistema_Box_House.exe.config
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\bin\Debug\Sistema_Box_House.exe
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\bin\Debug\Sistema_Box_House.pdb
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.csproj.AssemblyReference.cache
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.Form1.resources
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.FormClientes.resources
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.FormEntrega.resources
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.FormFuncionarios.resources
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.FormVendas.resources
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.Properties.Resources.resources
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.csproj.GenerateResource.cache
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.csproj.CoreCompileInputs.cache
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.exe
+C:\Users\kaio.mfernandes\source\repos\Sistema_Box_House\Sistema_Box_House\obj\Debug\Sistema_Box_House.pdb

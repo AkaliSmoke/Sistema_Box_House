@@ -29,15 +29,16 @@
         private void InitializeComponent()
         {
             this.gbSelecaoProdutos = new System.Windows.Forms.GroupBox();
-            this.cboProdutos = new System.Windows.Forms.ComboBox();
-            this.nudQuantidade = new System.Windows.Forms.NumericUpDown();
-            this.gbItensPedido = new System.Windows.Forms.GroupBox();
-            this.lbTotalPedido = new System.Windows.Forms.Label();
-            this.dgvItensPedido = new System.Windows.Forms.DataGridView();
-            this.lbProduto = new System.Windows.Forms.Label();
-            this.lbQuantidade = new System.Windows.Forms.Label();
             this.btnAdicionarItem = new System.Windows.Forms.Button();
+            this.lbQuantidade = new System.Windows.Forms.Label();
+            this.lbProduto = new System.Windows.Forms.Label();
+            this.nudQuantidade = new System.Windows.Forms.NumericUpDown();
+            this.cboProdutos = new System.Windows.Forms.ComboBox();
+            this.gbItensPedido = new System.Windows.Forms.GroupBox();
+            this.dgvItensPedido = new System.Windows.Forms.DataGridView();
+            this.lbTotalPedido = new System.Windows.Forms.Label();
             this.btnFinalizarPedido = new System.Windows.Forms.Button();
+            this.lbReal = new System.Windows.Forms.Label();
             this.gbSelecaoProdutos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).BeginInit();
             this.gbItensPedido.SuspendLayout();
@@ -59,13 +60,36 @@
             this.gbSelecaoProdutos.TabStop = false;
             this.gbSelecaoProdutos.Text = "Tela de Seleção de Produtos";
             // 
-            // cboProdutos
+            // btnAdicionarItem
             // 
-            this.cboProdutos.FormattingEnabled = true;
-            this.cboProdutos.Location = new System.Drawing.Point(149, 35);
-            this.cboProdutos.Name = "cboProdutos";
-            this.cboProdutos.Size = new System.Drawing.Size(462, 24);
-            this.cboProdutos.TabIndex = 0;
+            this.btnAdicionarItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdicionarItem.Location = new System.Drawing.Point(650, 167);
+            this.btnAdicionarItem.Name = "btnAdicionarItem";
+            this.btnAdicionarItem.Size = new System.Drawing.Size(119, 33);
+            this.btnAdicionarItem.TabIndex = 4;
+            this.btnAdicionarItem.Text = "Adicionar Item";
+            this.btnAdicionarItem.UseVisualStyleBackColor = true;
+            this.btnAdicionarItem.Click += new System.EventHandler(this.btnAdicionarItem_Click);
+            // 
+            // lbQuantidade
+            // 
+            this.lbQuantidade.AutoSize = true;
+            this.lbQuantidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbQuantidade.Location = new System.Drawing.Point(25, 82);
+            this.lbQuantidade.Name = "lbQuantidade";
+            this.lbQuantidade.Size = new System.Drawing.Size(91, 16);
+            this.lbQuantidade.TabIndex = 3;
+            this.lbQuantidade.Text = "Quantidade:";
+            // 
+            // lbProduto
+            // 
+            this.lbProduto.AutoSize = true;
+            this.lbProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProduto.Location = new System.Drawing.Point(25, 40);
+            this.lbProduto.Name = "lbProduto";
+            this.lbProduto.Size = new System.Drawing.Size(65, 16);
+            this.lbProduto.TabIndex = 2;
+            this.lbProduto.Text = "Produto:";
             // 
             // nudQuantidade
             // 
@@ -73,6 +97,17 @@
             this.nudQuantidade.Name = "nudQuantidade";
             this.nudQuantidade.Size = new System.Drawing.Size(120, 22);
             this.nudQuantidade.TabIndex = 1;
+            this.nudQuantidade.ValueChanged += new System.EventHandler(this.nudQuantidade_ValueChanged);
+            // 
+            // cboProdutos
+            // 
+            this.cboProdutos.FormattingEnabled = true;
+            this.cboProdutos.Location = new System.Drawing.Point(149, 32);
+            this.cboProdutos.Name = "cboProdutos";
+            this.cboProdutos.Size = new System.Drawing.Size(462, 24);
+            this.cboProdutos.TabIndex = 0;
+            this.cboProdutos.Tag = "";
+            this.cboProdutos.SelectedIndexChanged += new System.EventHandler(this.cboProdutos_SelectedIndexChanged);
             // 
             // gbItensPedido
             // 
@@ -85,16 +120,6 @@
             this.gbItensPedido.TabStop = false;
             this.gbItensPedido.Text = "Itens do Pedido";
             // 
-            // lbTotalPedido
-            // 
-            this.lbTotalPedido.AutoSize = true;
-            this.lbTotalPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTotalPedido.Location = new System.Drawing.Point(13, 460);
-            this.lbTotalPedido.Name = "lbTotalPedido";
-            this.lbTotalPedido.Size = new System.Drawing.Size(235, 31);
-            this.lbTotalPedido.TabIndex = 2;
-            this.lbTotalPedido.Text = "Total do Pedido: ";
-            // 
             // dgvItensPedido
             // 
             this.dgvItensPedido.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
@@ -103,36 +128,17 @@
             this.dgvItensPedido.Name = "dgvItensPedido";
             this.dgvItensPedido.Size = new System.Drawing.Size(762, 179);
             this.dgvItensPedido.TabIndex = 0;
+            this.dgvItensPedido.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvItensPedido_CellContentClick);
             // 
-            // lbProduto
+            // lbTotalPedido
             // 
-            this.lbProduto.AutoSize = true;
-            this.lbProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbProduto.Location = new System.Drawing.Point(25, 40);
-            this.lbProduto.Name = "lbProduto";
-            this.lbProduto.Size = new System.Drawing.Size(57, 16);
-            this.lbProduto.TabIndex = 2;
-            this.lbProduto.Text = "Produto:";
-            // 
-            // lbQuantidade
-            // 
-            this.lbQuantidade.AutoSize = true;
-            this.lbQuantidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbQuantidade.Location = new System.Drawing.Point(25, 82);
-            this.lbQuantidade.Name = "lbQuantidade";
-            this.lbQuantidade.Size = new System.Drawing.Size(80, 16);
-            this.lbQuantidade.TabIndex = 3;
-            this.lbQuantidade.Text = "Quantidade:";
-            // 
-            // btnAdicionarItem
-            // 
-            this.btnAdicionarItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdicionarItem.Location = new System.Drawing.Point(650, 167);
-            this.btnAdicionarItem.Name = "btnAdicionarItem";
-            this.btnAdicionarItem.Size = new System.Drawing.Size(119, 33);
-            this.btnAdicionarItem.TabIndex = 4;
-            this.btnAdicionarItem.Text = "Adicionar Item";
-            this.btnAdicionarItem.UseVisualStyleBackColor = true;
+            this.lbTotalPedido.AutoSize = true;
+            this.lbTotalPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTotalPedido.Location = new System.Drawing.Point(13, 460);
+            this.lbTotalPedido.Name = "lbTotalPedido";
+            this.lbTotalPedido.Size = new System.Drawing.Size(227, 31);
+            this.lbTotalPedido.TabIndex = 2;
+            this.lbTotalPedido.Text = "Total do Pedido:";
             // 
             // btnFinalizarPedido
             // 
@@ -143,18 +149,31 @@
             this.btnFinalizarPedido.TabIndex = 3;
             this.btnFinalizarPedido.Text = "Finalizar Pedido";
             this.btnFinalizarPedido.UseVisualStyleBackColor = true;
+            this.btnFinalizarPedido.Click += new System.EventHandler(this.btnFinalizarPedido_Click);
+            // 
+            // lbReal
+            // 
+            this.lbReal.AutoSize = true;
+            this.lbReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbReal.Location = new System.Drawing.Point(246, 462);
+            this.lbReal.Name = "lbReal";
+            this.lbReal.Size = new System.Drawing.Size(0, 31);
+            this.lbReal.TabIndex = 4;
+            this.lbReal.Click += new System.EventHandler(this.lbReal_Click);
             // 
             // FormVendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 531);
+            this.Controls.Add(this.lbReal);
             this.Controls.Add(this.btnFinalizarPedido);
             this.Controls.Add(this.lbTotalPedido);
             this.Controls.Add(this.gbItensPedido);
             this.Controls.Add(this.gbSelecaoProdutos);
             this.Name = "FormVendas";
             this.Text = "FormVendas";
+            this.Load += new System.EventHandler(this.FormVendas_Load);
             this.gbSelecaoProdutos.ResumeLayout(false);
             this.gbSelecaoProdutos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantidade)).EndInit();
@@ -177,5 +196,6 @@
         private System.Windows.Forms.DataGridView dgvItensPedido;
         private System.Windows.Forms.Label lbTotalPedido;
         private System.Windows.Forms.Button btnFinalizarPedido;
+        private System.Windows.Forms.Label lbReal;
     }
 }

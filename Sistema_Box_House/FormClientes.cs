@@ -16,5 +16,40 @@ namespace Sistema_Box_House
         {
             InitializeComponent();
         }
+
+        private void txtNome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mtbTelefone_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void cboPet_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalvarClientes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLimparCampos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBuscarNome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvListaClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
